@@ -11,7 +11,7 @@ Página de intermediação (tráfego Meta Ads → grupo de WhatsApp) com **Meta 
 A CAPI envia: IP, user agent, `fbp`, `fbc` (gerado a partir do `fbclid`), `external_id` (hash SHA-256) e país/estado/cidade (hash).
 
 ## Configuração (Netlify)
-1. Em `public/index.html`, troque `SEU_PIXEL_ID_AQUI` (2 lugares) pelo ID do Pixel.
+1. Em `public/index.html`, troque `723038699406275` (2 lugares) pelo ID do Pixel.
 2. Em **Site configuration → Environment variables**, crie:
    - `META_PIXEL_ID` — mesmo ID do Pixel
    - `META_CAPI_TOKEN` — token gerado em Gerenciador de Eventos → Configurações → API de Conversões
